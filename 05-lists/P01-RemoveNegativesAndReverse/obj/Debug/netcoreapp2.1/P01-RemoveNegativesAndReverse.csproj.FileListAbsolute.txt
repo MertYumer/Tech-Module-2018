@@ -1,0 +1,11 @@
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\bin\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.deps.json
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\bin\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.runtimeconfig.json
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\bin\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.runtimeconfig.dev.json
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\bin\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.dll
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\bin\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.pdb
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\obj\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.csprojAssemblyReference.cache
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\obj\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.csproj.CoreCompileInputs.cache
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\obj\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.AssemblyInfoInputs.cache
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\obj\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.AssemblyInfo.cs
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\obj\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.dll
+D:\Projects\Tech Module 2018\05-lists\P01-RemoveNegativesAndReverse\obj\Debug\netcoreapp2.1\P01-RemoveNegativesAndReverse.pdb

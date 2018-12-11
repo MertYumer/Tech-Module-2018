@@ -1,0 +1,11 @@
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\bin\Debug\netcoreapp2.1\P03-MatchDates.deps.json
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\bin\Debug\netcoreapp2.1\P03-MatchDates.runtimeconfig.json
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\bin\Debug\netcoreapp2.1\P03-MatchDates.runtimeconfig.dev.json
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\bin\Debug\netcoreapp2.1\P03-MatchDates.dll
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\bin\Debug\netcoreapp2.1\P03-MatchDates.pdb
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\obj\Debug\netcoreapp2.1\P03-MatchDates.csprojAssemblyReference.cache
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\obj\Debug\netcoreapp2.1\P03-MatchDates.csproj.CoreCompileInputs.cache
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\obj\Debug\netcoreapp2.1\P03-MatchDates.AssemblyInfoInputs.cache
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\obj\Debug\netcoreapp2.1\P03-MatchDates.AssemblyInfo.cs
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\obj\Debug\netcoreapp2.1\P03-MatchDates.dll
+D:\Projects\Tech Module 2018\regular-expressions-lab\P03-MatchDates\obj\Debug\netcoreapp2.1\P03-MatchDates.pdb

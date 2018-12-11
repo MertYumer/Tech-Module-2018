@@ -1,0 +1,11 @@
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\bin\Debug\netcoreapp2.1\P01-DayOfWeek.deps.json
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\bin\Debug\netcoreapp2.1\P01-DayOfWeek.runtimeconfig.json
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\bin\Debug\netcoreapp2.1\P01-DayOfWeek.runtimeconfig.dev.json
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\bin\Debug\netcoreapp2.1\P01-DayOfWeek.dll
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\bin\Debug\netcoreapp2.1\P01-DayOfWeek.pdb
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\obj\Debug\netcoreapp2.1\P01-DayOfWeek.csprojAssemblyReference.cache
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\obj\Debug\netcoreapp2.1\P01-DayOfWeek.csproj.CoreCompileInputs.cache
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\obj\Debug\netcoreapp2.1\P01-DayOfWeek.AssemblyInfoInputs.cache
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\obj\Debug\netcoreapp2.1\P01-DayOfWeek.AssemblyInfo.cs
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\obj\Debug\netcoreapp2.1\P01-DayOfWeek.dll
+D:\Projects\Tech Module 2018\03-arrays\P01-DayOfWeek\obj\Debug\netcoreapp2.1\P01-DayOfWeek.pdb
