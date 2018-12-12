@@ -1,8 +1,7 @@
-﻿using System;
-using System.Linq;
-
-namespace P06_MiddleCharacters
+﻿namespace P06_MiddleCharacters
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -14,6 +13,7 @@ namespace P06_MiddleCharacters
         public static string PrintMiddleCharacters(string symbols)
         {
             string middleChars = string.Empty;
+
             if (symbols.Length % 2 == 1)
             {
                 middleChars += symbols[symbols.Length / 2];

@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P07_StudentAcademy
+﻿namespace P07_StudentAcademy
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -20,6 +20,7 @@ namespace P07_StudentAcademy
                 {
                     students[currentStudent] = new List<double>();
                 }
+
                 students[currentStudent].Add(currentGrade);
             }
 

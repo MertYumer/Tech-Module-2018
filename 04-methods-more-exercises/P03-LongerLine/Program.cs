@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P03_LongerLine
+﻿namespace P03_LongerLine
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)
@@ -23,19 +23,23 @@ namespace P03_LongerLine
         {
             double firstDistance = Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
             double secondDistance = Math.Sqrt((x4 - x3) * (x4 - x3) + (y4 - y3) * (y4 - y3));
+
             if (firstDistance >= secondDistance)
             {
                 return FindClosestPointToCenter(x1, y1, x2, y2);
             }
+
             else
             {
                 return FindClosestPointToCenter(x3, y3, x4, y4);
             }
         }
+
         public static string FindClosestPointToCenter(double x1, double y1, double x2, double y2)
         {
             double firstPair = Math.Sqrt(x1 * x1) + (y1 * y1);
             double secondPair = Math.Sqrt(x2 * x2) + (y2 * y2);
+
             return firstPair <= secondPair ? $"({x1}, {y1})({x2}, {y2})" : $"({x2}, {y2})({x1}, {y1})";
         }
     }

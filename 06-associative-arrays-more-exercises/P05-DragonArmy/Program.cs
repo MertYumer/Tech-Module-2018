@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P05_DragonArmy
+﻿namespace P05_DragonArmy
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -52,6 +52,7 @@ namespace P05_DragonArmy
             }
 
             var result = dragons.GroupBy(x => x.Type);
+
             foreach (var dragon in result)
             {
                 var colors = dragon

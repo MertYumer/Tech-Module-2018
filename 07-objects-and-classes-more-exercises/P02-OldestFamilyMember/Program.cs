@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P02_OldestFamilyMember
+﻿namespace P02_OldestFamilyMember
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -27,6 +27,7 @@ namespace P02_OldestFamilyMember
     public class Member
     {
         public string Name { get; set; }
+
         public int Age { get; set; }
 
         public Member(string name, int age)

@@ -1,8 +1,8 @@
-﻿using System;
-using System.Globalization;
-
-namespace P01_DayOfWeek
+﻿namespace P01_DayOfWeek
 {
+    using System;
+    using System.Globalization;
+
     public class Program
     {
         public static void Main()

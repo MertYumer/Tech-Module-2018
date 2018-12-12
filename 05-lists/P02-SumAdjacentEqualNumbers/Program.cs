@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P02_SumAdjacentEqualNumbers
+﻿namespace P02_SumAdjacentEqualNumbers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
         {
             List<double> numbers = Console.ReadLine().Split().Select(double.Parse).ToList();
+
             for (int i = 0; i < numbers.Count - 1; i++)
             {
                 if (numbers[i] == numbers[i + 1])
@@ -18,6 +19,7 @@ namespace P02_SumAdjacentEqualNumbers
                     i = -1;
                 }
             }
+
             Console.WriteLine(string.Join(" ", numbers));
         }
     }

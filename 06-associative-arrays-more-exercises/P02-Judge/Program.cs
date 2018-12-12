@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P02_Judge
+﻿namespace P02_Judge
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -63,7 +63,9 @@ namespace P02_Judge
                 var result = contest.Value
                     .OrderByDescending(x => x.Value)
                     .ThenBy(x => x.Key);
+
                 int counter = 0;
+
                 foreach (var participant in result)
                 {
                     counter++;
@@ -73,6 +75,7 @@ namespace P02_Judge
 
             Console.WriteLine("Individual standings:");
             int rank = 0;
+
             var finalStandings = participants
                 .OrderByDescending(x => x.Value.Values.Sum())
                 .ThenBy(x => x.Key);

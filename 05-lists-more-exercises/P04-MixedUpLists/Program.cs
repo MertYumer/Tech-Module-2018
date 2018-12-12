@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P04_MixedUpLists
+﻿namespace P04_MixedUpLists
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -28,6 +28,7 @@ namespace P04_MixedUpLists
             {
                 firstNumber = Math.Min(firstList[firstList.Count - 2],
                     firstList[firstList.Count - 1]);
+
                 secondNumber = Math.Max(firstList[firstList.Count - 2],
                     firstList[firstList.Count - 1]);
             }
@@ -36,11 +37,13 @@ namespace P04_MixedUpLists
             {
                 firstNumber = Math.Min(secondList[secondList.Count - 2],
                     secondList[secondList.Count - 1]);
+
                 secondNumber = Math.Max(secondList[secondList.Count - 2],
                     secondList[secondList.Count - 1]);
             }
 
             var finalList = new List<int>();
+
             foreach (var number in mixedList)
             {
                 if (number > firstNumber && number < secondNumber)

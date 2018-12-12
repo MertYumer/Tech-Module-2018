@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
-
-namespace P03_TreasureFinder
+﻿namespace P03_TreasureFinder
 {
+    using System;
+    using System.Linq;
+    using System.Text.RegularExpressions;
+
     public class Program
     {
         public static void Main()
@@ -36,6 +36,7 @@ namespace P03_TreasureFinder
                         keyIndex = 0;
                     }
                 }
+
                 input = new string(message);
 
                 types = Regex.Match(input, firstRegex);

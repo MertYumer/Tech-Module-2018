@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P07_NxNMatrix
+﻿namespace P07_NxNMatrix
 {
+    using System;
+
     public class Program
     {
         public static void Main()

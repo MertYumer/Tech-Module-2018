@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P02_MinerTask
+﻿namespace P02_MinerTask
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -20,6 +19,7 @@ namespace P02_MinerTask
                     {
                         Console.WriteLine(resource.Key + " -> " + resource.Value);
                     }
+
                     break;
                 }
 

@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\05-lists-more-exercises\P04-MixedUpLists\obj\Debug\
 D:\Projects\Tech Module 2018\05-lists-more-exercises\P04-MixedUpLists\obj\Debug\netcoreapp2.1\P04-MixedUpLists.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\05-lists-more-exercises\P04-MixedUpLists\obj\Debug\netcoreapp2.1\P04-MixedUpLists.dll
 D:\Projects\Tech Module 2018\05-lists-more-exercises\P04-MixedUpLists\obj\Debug\netcoreapp2.1\P04-MixedUpLists.pdb
+D:\Projects\Tech Module 2018\05-lists-more-exercises\P04-MixedUpLists\obj\Debug\netcoreapp2.1\P04-MixedUpLists.csprojAssemblyReference.cache

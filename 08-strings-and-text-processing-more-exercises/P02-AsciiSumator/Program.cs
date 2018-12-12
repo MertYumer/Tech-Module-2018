@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P02_AsciiSumator
+﻿namespace P02_AsciiSumator
 {
+    using System;
+
     public class Program
     {
         public static void Main()

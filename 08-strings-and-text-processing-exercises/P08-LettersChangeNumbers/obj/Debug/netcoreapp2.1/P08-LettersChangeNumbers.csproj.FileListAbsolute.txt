@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P08-Letter
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P08-LettersChangeNumbers\obj\Debug\netcoreapp2.1\P08-LettersChangeNumbers.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P08-LettersChangeNumbers\obj\Debug\netcoreapp2.1\P08-LettersChangeNumbers.dll
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P08-LettersChangeNumbers\obj\Debug\netcoreapp2.1\P08-LettersChangeNumbers.pdb
+D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P08-LettersChangeNumbers\obj\Debug\netcoreapp2.1\P08-LettersChangeNumbers.csprojAssemblyReference.cache

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P06_ReplaceRepeatingChars
+﻿namespace P06_ReplaceRepeatingChars
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -19,6 +19,7 @@ namespace P06_ReplaceRepeatingChars
                     {
                         startIndex = i;
                     }
+
                     counter++;
 
                     if (i == input.Length - 1)

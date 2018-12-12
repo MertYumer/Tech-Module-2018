@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace P04_TextFilter
+﻿namespace P04_TextFilter
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()

@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\05-lists\P06-ListManipulationAdvanced\obj\Debug\net
 D:\Projects\Tech Module 2018\05-lists\P06-ListManipulationAdvanced\obj\Debug\netcoreapp2.1\P06-ListManipulationAdvanced.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\05-lists\P06-ListManipulationAdvanced\obj\Debug\netcoreapp2.1\P06-ListManipulationAdvanced.dll
 D:\Projects\Tech Module 2018\05-lists\P06-ListManipulationAdvanced\obj\Debug\netcoreapp2.1\P06-ListManipulationAdvanced.pdb
+D:\Projects\Tech Module 2018\05-lists\P06-ListManipulationAdvanced\obj\Debug\netcoreapp2.1\P06-ListManipulationAdvanced.csprojAssemblyReference.cache

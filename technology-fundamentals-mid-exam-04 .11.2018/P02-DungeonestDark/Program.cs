@@ -1,9 +1,7 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P02_DungeonestDark
+﻿namespace P02_DungeonestDark
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -13,10 +11,12 @@ namespace P02_DungeonestDark
 
             var dungeonsRooms = Console.ReadLine().Split('|');
             int counter = 0;
+
             for (int i = 0; i < dungeonsRooms.Length; i++)
             {
                 var command = dungeonsRooms[i].Split();
                 counter = i + 1;
+
                 if (command[0] == "potion")
                 {
                     int potion = int.Parse(command[1]);
@@ -26,6 +26,7 @@ namespace P02_DungeonestDark
                         potion = 100 - health;
                         health = 100;
                     }
+
                     else
                     {
                         health += potion;
@@ -61,6 +62,7 @@ namespace P02_DungeonestDark
                     }
                 }
             }
+
             Console.WriteLine("You've made it!");
             Console.WriteLine($"Coins: {coins}");
             Console.WriteLine($"Health: {health}");

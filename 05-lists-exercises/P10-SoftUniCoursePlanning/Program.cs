@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P10_SoftUniCoursePlanning
+﻿namespace P10_SoftUniCoursePlanning
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -13,17 +13,20 @@ namespace P10_SoftUniCoursePlanning
             while (true)
             {
                 string input = Console.ReadLine();
+
                 if (input == "course start")
                 {
                     for (int i = 0; i < courses.Count; i++)
                     {
                         Console.WriteLine($"{i + 1}.{courses[i]}");
                     }
+
                     break;
                 }
 
                 var command = input.Split(":").ToArray();
                 string lesson = command[1];
+
                 switch (command[0])
                 {
                     case "Add":
@@ -60,6 +63,7 @@ namespace P10_SoftUniCoursePlanning
             {
                 courses.Insert(index, lesson);
             }
+
             return courses;
         }
 
@@ -93,6 +97,7 @@ namespace P10_SoftUniCoursePlanning
         public static List<string> AddExercise(List<string> courses, string lesson)
         {
             int index = courses.IndexOf(lesson);
+
             if (courses.Contains(lesson) && !courses.Contains($"{lesson}-Exercise"))
             {
                 courses.Insert(index + 1, $"{lesson}-Exercise");
@@ -103,6 +108,7 @@ namespace P10_SoftUniCoursePlanning
                 courses.Add(lesson);
                 courses.Add($"{lesson}-Exercise");
             }
+
             return courses;
         }
     }

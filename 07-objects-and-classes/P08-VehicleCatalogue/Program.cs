@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P08_VehicleCatalogue
+﻿namespace P08_VehicleCatalogue
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Truck
     {
         public string Brand { get; set; }
@@ -47,6 +47,7 @@ namespace P08_VehicleCatalogue
                                             select currentCar).ToList();
 
                         Console.WriteLine($"Cars:");
+
                         foreach (var currentCar in result)
                         {
                             Console.WriteLine($"{currentCar.Brand}: " +
@@ -61,6 +62,7 @@ namespace P08_VehicleCatalogue
                                               select currentTruck).ToList();
 
                         Console.WriteLine($"Trucks:");
+
                         foreach (var currentTruck in result)
                         {
                             Console.WriteLine($"{currentTruck.Brand}: " +
@@ -77,24 +79,28 @@ namespace P08_VehicleCatalogue
                 if (vehicle[0] == "Car")
                 {
                     string horsePower = vehicle[3];
+
                     var car = new Car
                     {
                         Brand = brand,
                         Model = model,
                         HorsePower = horsePower
                     };
+
                     catalog.Cars.Add(car);
                 }
 
                 else if (vehicle[0] == "Truck")
                 {
                     string weight = vehicle[3];
+
                     var truck = new Truck
                     {
                         Brand = brand,
                         Model = model,
                         Weight = weight
                     };
+
                     catalog.Trucks.Add(truck);
                 }
             }

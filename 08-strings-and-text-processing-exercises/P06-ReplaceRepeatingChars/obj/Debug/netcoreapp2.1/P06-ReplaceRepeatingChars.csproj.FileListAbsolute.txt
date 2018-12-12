@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P06-Replac
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P06-ReplaceRepeatingChars\obj\Debug\netcoreapp2.1\P06-ReplaceRepeatingChars.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P06-ReplaceRepeatingChars\obj\Debug\netcoreapp2.1\P06-ReplaceRepeatingChars.dll
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P06-ReplaceRepeatingChars\obj\Debug\netcoreapp2.1\P06-ReplaceRepeatingChars.pdb
+D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P06-ReplaceRepeatingChars\obj\Debug\netcoreapp2.1\P06-ReplaceRepeatingChars.csprojAssemblyReference.cache

@@ -1,13 +1,14 @@
-﻿using System;
-
-namespace P08_LettersChangeNumbers
+﻿namespace P08_LettersChangeNumbers
 {
+    using System;
+
     public class Program
     {
         public static void Main()
         {
             var input = Console.ReadLine()
                 .Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+
             double totalSum = 0.0;
 
             foreach (var text in input)

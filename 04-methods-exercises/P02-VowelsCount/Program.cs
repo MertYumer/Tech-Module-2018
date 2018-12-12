@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P02_VowelsCount
+﻿namespace P02_VowelsCount
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -9,9 +9,11 @@ namespace P02_VowelsCount
             string word = Console.ReadLine();
             Console.WriteLine(SumVowels(word));
         }
+
         public static int SumVowels(string word)
         {
             int sum = 0;
+
             for (int i = 0; i < word.Length; i++)
             {
                 switch (word[i])
@@ -30,6 +32,7 @@ namespace P02_VowelsCount
                         break;
                 }
             }
+
             return sum;
         }
     }

@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace P01_ReverseStrings
+﻿namespace P01_ReverseStrings
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -18,6 +17,7 @@ namespace P01_ReverseStrings
 
                 char[] charArray = word.ToCharArray();
                 Array.Reverse(charArray);
+
                 string reversedWord = new string(charArray);
                 Console.WriteLine(word + " = " + reversedWord);
             }

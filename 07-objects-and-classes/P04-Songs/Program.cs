@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace P04_Songs
+﻿namespace P04_Songs
 {
-    public class Songs
-    {
-        public string TypeList { get; set; }
-
-        public string Name { get; set; }
-
-        public string Time { get; set; }
-    }
+    using System;
+    using System.Collections.Generic;
 
     public class Program
     {
@@ -55,5 +46,14 @@ namespace P04_Songs
                 }
             }
         }
+    }
+
+    public class Songs
+    {
+        public string TypeList { get; set; }
+
+        public string Name { get; set; }
+
+        public string Time { get; set; }
     }
 }

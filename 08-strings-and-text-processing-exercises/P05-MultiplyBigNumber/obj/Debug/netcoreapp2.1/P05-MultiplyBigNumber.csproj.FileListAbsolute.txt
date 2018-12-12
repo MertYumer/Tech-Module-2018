@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P05-Multip
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P05-MultiplyBigNumber\obj\Debug\netcoreapp2.1\P05-MultiplyBigNumber.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P05-MultiplyBigNumber\obj\Debug\netcoreapp2.1\P05-MultiplyBigNumber.dll
 D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P05-MultiplyBigNumber\obj\Debug\netcoreapp2.1\P05-MultiplyBigNumber.pdb
+D:\Projects\Tech Module 2018\08-strings-and-text-processing-exercises\P05-MultiplyBigNumber\obj\Debug\netcoreapp2.1\P05-MultiplyBigNumber.csprojAssemblyReference.cache

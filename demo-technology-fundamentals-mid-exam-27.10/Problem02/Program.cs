@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Numerics;
-
-namespace Problem02
+﻿namespace Problem02
 {
+    using System;
+    using System.Linq;
+
     class Program
     {
         static void Main(string[] args)
@@ -15,10 +14,12 @@ namespace Problem02
             for (int i = 0; i < events.Count; i++)
             {
                 var command = events[i].Split("-", StringSplitOptions.RemoveEmptyEntries);
+
                 switch (command[0])
                 {
                     case "rest":
                         int gainEnergy = int.Parse(command[1]);
+
                         if (gainEnergy + energy > 100)
                         {
                             gainEnergy = 100 - energy;
@@ -49,6 +50,7 @@ namespace Problem02
                     default:
                         int price = int.Parse(command[1]);
                         coins -= price;
+
                         if (coins > 0)
                         {
                             Console.WriteLine($"You bought {command[0]}.");
@@ -59,9 +61,11 @@ namespace Problem02
                             Console.WriteLine($"Closed! Cannot afford {command[0]}.");
                             return;
                         }
+
                         break;
                 }
             }
+
             Console.WriteLine("Day completed!");
             Console.WriteLine($"Coins: {coins}");
             Console.WriteLine($"Energy: {energy}");

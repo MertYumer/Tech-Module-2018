@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\04-methods\P03-Calculations\obj\Debug\netcoreapp2.1
 D:\Projects\Tech Module 2018\04-methods\P03-Calculations\obj\Debug\netcoreapp2.1\P03-Calculations.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\04-methods\P03-Calculations\obj\Debug\netcoreapp2.1\P03-Calculations.dll
 D:\Projects\Tech Module 2018\04-methods\P03-Calculations\obj\Debug\netcoreapp2.1\P03-Calculations.pdb
+D:\Projects\Tech Module 2018\04-methods\P03-Calculations\obj\Debug\netcoreapp2.1\P03-Calculations.csprojAssemblyReference.cache

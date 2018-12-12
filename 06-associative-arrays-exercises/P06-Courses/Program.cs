@@ -1,10 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-
-namespace P06_Courses
+﻿namespace P06_Courses
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -21,17 +20,21 @@ namespace P06_Courses
                     courses = courses
                         .OrderByDescending(x => x.Value.Count)
                         .ToDictionary(x => x.Key, x => x.Value);
+
                     foreach (var course in courses)
                     {
                         Console.WriteLine(course.Key + ": " + course.Value.Count);
                         var list = course.Value.OrderBy(x => x).ToList();
+
                         for (int i = 0; i < course.Value.Count; i++)
                         {
                             Console.WriteLine($"-- " + list[i]);
                         }
                     }
+
                     break;
                 }
+
                 string lesson = currentCourse[0];
                 string student = currentCourse[1];
 
@@ -40,6 +43,7 @@ namespace P06_Courses
                     students = new List<string>();
                     courses[lesson] = students;
                 }
+
                 courses[lesson].Add(student);
             }
         }

@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P01_Dictionary
+﻿namespace P01_Dictionary
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -49,6 +49,7 @@ namespace P01_Dictionary
                 {
                     Console.Write(word.Key + " ");
                 }
+
                 Console.WriteLine();
             }
 

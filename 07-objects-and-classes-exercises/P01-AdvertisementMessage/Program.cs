@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace P01_AdvertisementMessage
+﻿namespace P01_AdvertisementMessage
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()

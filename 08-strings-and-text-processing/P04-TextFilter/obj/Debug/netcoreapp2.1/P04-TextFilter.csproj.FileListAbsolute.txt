@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\08-strings-and-text-processing\P04-TextFilter\obj\D
 D:\Projects\Tech Module 2018\08-strings-and-text-processing\P04-TextFilter\obj\Debug\netcoreapp2.1\P04-TextFilter.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\08-strings-and-text-processing\P04-TextFilter\obj\Debug\netcoreapp2.1\P04-TextFilter.dll
 D:\Projects\Tech Module 2018\08-strings-and-text-processing\P04-TextFilter\obj\Debug\netcoreapp2.1\P04-TextFilter.pdb
+D:\Projects\Tech Module 2018\08-strings-and-text-processing\P04-TextFilter\obj\Debug\netcoreapp2.1\P04-TextFilter.csprojAssemblyReference.cache

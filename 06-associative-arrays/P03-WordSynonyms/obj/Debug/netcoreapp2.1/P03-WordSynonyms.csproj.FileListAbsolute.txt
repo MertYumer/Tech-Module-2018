@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\06-associative-arrays\P03-WordSynonyms\obj\Debug\ne
 D:\Projects\Tech Module 2018\06-associative-arrays\P03-WordSynonyms\obj\Debug\netcoreapp2.1\P03-WordSynonyms.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\06-associative-arrays\P03-WordSynonyms\obj\Debug\netcoreapp2.1\P03-WordSynonyms.dll
 D:\Projects\Tech Module 2018\06-associative-arrays\P03-WordSynonyms\obj\Debug\netcoreapp2.1\P03-WordSynonyms.pdb
+D:\Projects\Tech Module 2018\06-associative-arrays\P03-WordSynonyms\obj\Debug\netcoreapp2.1\P03-WordSynonyms.csprojAssemblyReference.cache

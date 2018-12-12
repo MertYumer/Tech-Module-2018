@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P03_ExtractFile
+﻿namespace P03_ExtractFile
 {
+    using System;
+
     public class Program
     {
         public static void Main()

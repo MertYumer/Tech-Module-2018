@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace P02_CarRace
+﻿namespace P02_CarRace
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -41,6 +41,7 @@ namespace P02_CarRace
             {
                 Console.WriteLine($"The winner is left with total time: {leftRacer}");
             }
+
             else if (leftRacer > rightRacer)
             {
                 Console.WriteLine($"The winner is right with total time: {rightRacer}");

@@ -1,8 +1,8 @@
-﻿using System;
-using System.Numerics;
-
-namespace P03_BigFactorial
+﻿namespace P03_BigFactorial
 {
+    using System;
+    using System.Numerics;
+
     public class Program
     {
         public static void Main()

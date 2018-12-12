@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P03_Substring
+﻿namespace P03_Substring
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -14,6 +14,7 @@ namespace P03_Substring
             while (index != -1)
             {
                 index = secondWord.IndexOf(firstWord);
+
                 if (index != -1)
                 {
                     secondWord = secondWord.Remove(index, firstWord.Length);

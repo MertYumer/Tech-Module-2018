@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P01_Ranking
+﻿namespace P01_Ranking
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -11,6 +11,7 @@ namespace P01_Ranking
             var contestsAndPasswords = new Dictionary<string, string>();
 
             var newContest = Console.ReadLine().Split(":");
+
             while (newContest[0] != "end of contests")
             {
                 string contest = newContest[0];
@@ -22,6 +23,7 @@ namespace P01_Ranking
             var students = new Dictionary<string, Dictionary<string, int>>();
 
             var submission = Console.ReadLine().Split("=>");
+
             while (submission[0] != "end of submissions")
             {
                 string contest = submission[0];
@@ -51,6 +53,7 @@ namespace P01_Ranking
                         }
                     }
                 }
+
                 submission = Console.ReadLine().Split("=>");
             }
 
@@ -61,14 +64,17 @@ namespace P01_Ranking
             foreach (var student in result)
             {
                 name = student.Key;
+
                 foreach (var currentPoints in student.Value)
                 {
                     sum += currentPoints.Value;
                 }
             }
+
             Console.WriteLine($"Best candidate is {name} with total {sum} points.");
 
             Console.WriteLine("Ranking:");
+
             foreach (var student in students.OrderBy(x => x.Key))
             {
                 Console.WriteLine(student.Key);

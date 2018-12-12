@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace P05_WordFilter
+﻿namespace P05_WordFilter
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()

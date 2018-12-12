@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
-
-namespace P10_WinningTicket
+﻿namespace P10_WinningTicket
 {
+    using System;
+    using System.Text.RegularExpressions;
+
     public class Program
     {
         public static void Main()

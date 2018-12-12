@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P04_Snowwhite
+﻿namespace P04_Snowwhite
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -71,6 +71,7 @@ namespace P04_Snowwhite
                 {
                     colorsCount.Add(dwarfHatColor, 0);
                 }
+
                 colorsCount[dwarfHatColor]++;
             }
         }

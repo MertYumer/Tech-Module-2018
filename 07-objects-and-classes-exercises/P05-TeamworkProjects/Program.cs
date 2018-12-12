@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P05_TeamworkProjects
+﻿namespace P05_TeamworkProjects
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -90,6 +90,7 @@ namespace P05_TeamworkProjects
             {
                 Console.WriteLine(team.TeamName);
                 Console.WriteLine("- " + team.CreatorName);
+
                 team.Members = team.Members
                     .OrderBy(x => x).ToList();
 

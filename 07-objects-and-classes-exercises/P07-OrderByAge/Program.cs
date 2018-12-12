@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P07_OrderByAge
+﻿namespace P07_OrderByAge
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -40,7 +40,9 @@ namespace P07_OrderByAge
     public class Person
     {
         public string Name { get; set; }
+
         public string ID { get; set; }
+
         public int Age { get; set; }
 
         public override string ToString()

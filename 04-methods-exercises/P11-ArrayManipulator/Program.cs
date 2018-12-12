@@ -1,65 +1,77 @@
-﻿using System;
-using System.Linq;
-
-namespace P11_ArrayManipulator
+﻿namespace P11_ArrayManipulator
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
         {
             int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
             while (true)
             {
                 string input = Console.ReadLine();
+
                 if (input == "end")
                 {
                     Console.WriteLine("[" + string.Join(", ", array) + "]");
                     break;
                 }
+
                 string[] command = input.Split();
+
                 if (command[0] == "exchange")
                 {
                     ExchangeIndex(array, Convert.ToInt32(command[1]));
                 }
+
                 else if (command[0] == "max")
                 {
                     if (command[1] == "even")
                     {
                         PrintMax(array, 0);
                     }
+
                     else if (command[1] == "odd")
                     {
                         PrintMax(array, 1);
                     }
                 }
+
                 else if (command[0] == "min")
                 {
                     if (command[1] == "even")
                     {
                         PrintMin(array, 0);
                     }
+
                     else if (command[1] == "odd")
                     {
                         PrintMin(array, 1);
                     }
                 }
+
                 else if (command[0] == "first")
                 {
                     if (command[2] == "even")
                     {
                         PrintFirst(array, 0, Convert.ToInt32(command[1]));
                     }
+
                     else if (command[2] == "odd")
                     {
                         PrintFirst(array, 1, Convert.ToInt32(command[1]));
                     }
                 }
+
                 else if (command[0] == "last")
                 {
                     if (command[2] == "even")
                     {
                         PrintLast(array, 0, Convert.ToInt32(command[1]));
                     }
+
                     else if (command[2] == "odd")
                     {
                         PrintLast(array, 1, Convert.ToInt32(command[1]));
@@ -75,13 +87,16 @@ namespace P11_ArrayManipulator
                 Console.WriteLine("Invalid index");
                 return;
             }
+
             for (int i = 0; i <= index; i++)
             {
                 int firstElement = array[0];
+
                 for (int j = 0; j < array.Length - 1; j++)
                 {
                     array[j] = array[j + 1];
                 }
+
                 array[array.Length - 1] = firstElement;
             }
         }
@@ -90,6 +105,7 @@ namespace P11_ArrayManipulator
         {
             int index = -1;
             int maxNumber = int.MinValue;
+
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] >= maxNumber && array[i] % 2 == remainder)
@@ -114,6 +130,7 @@ namespace P11_ArrayManipulator
         {
             int index = -1;
             int minNumber = int.MaxValue;
+
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] <= minNumber && array[i] % 2 == remainder)
@@ -145,6 +162,7 @@ namespace P11_ArrayManipulator
             int[] tempArray = new int[count];
             int counter = 0;
             bool isZero = true;
+
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 == remainder)
@@ -159,6 +177,7 @@ namespace P11_ArrayManipulator
                     break;
                 }
             }
+
             if (isZero)
             {
                 Console.WriteLine("[]");
@@ -167,6 +186,7 @@ namespace P11_ArrayManipulator
 
             int[] finalArray = new int[counter];
             int finalArrayCounter = 0;
+
             for (int i = 0; i < tempArray.Length; i++)
             {
                 if (tempArray[i] != 0)
@@ -190,6 +210,7 @@ namespace P11_ArrayManipulator
             int[] tempArray = new int[count];
             int counter = 0;
             bool isZero = true;
+
             for (int i = array.Length - 1; i >= 0; i--)
             {
                 if (array[i] % 2 == remainder)
@@ -204,7 +225,9 @@ namespace P11_ArrayManipulator
                     break;
                 }
             }
+
             Array.Reverse(tempArray);
+
             if (isZero)
             {
                 Console.WriteLine("[]");
@@ -213,6 +236,7 @@ namespace P11_ArrayManipulator
 
             int[] finalArray = new int[counter];
             int finalArrayCounter = 0;
+
             for (int i = 0; i < tempArray.Length; i++)
             {
                 if (tempArray[i] != 0)

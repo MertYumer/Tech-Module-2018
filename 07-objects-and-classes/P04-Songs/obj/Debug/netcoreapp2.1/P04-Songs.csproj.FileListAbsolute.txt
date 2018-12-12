@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\07-objects-and-classes\P04-Songs\obj\Debug\netcorea
 D:\Projects\Tech Module 2018\07-objects-and-classes\P04-Songs\obj\Debug\netcoreapp2.1\P04-Songs.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\07-objects-and-classes\P04-Songs\obj\Debug\netcoreapp2.1\P04-Songs.dll
 D:\Projects\Tech Module 2018\07-objects-and-classes\P04-Songs\obj\Debug\netcoreapp2.1\P04-Songs.pdb
+D:\Projects\Tech Module 2018\07-objects-and-classes\P04-Songs\obj\Debug\netcoreapp2.1\P04-Songs.csprojAssemblyReference.cache

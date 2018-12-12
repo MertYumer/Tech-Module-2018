@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P01_CompanyRoster
+﻿namespace P01_CompanyRoster
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -21,10 +21,12 @@ namespace P01_CompanyRoster
 
                 var employee = new Employee(name, salary, department);
                 employees.Add(employee);
+
                 if (!departments.ContainsKey(department))
                 {
                     departments[department] = new List<decimal>();
                 }
+
                 departments[department].Add(salary);
             }
 

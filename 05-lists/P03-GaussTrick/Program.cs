@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P03_GaussTrick
+﻿namespace P03_GaussTrick
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -17,6 +17,7 @@ namespace P03_GaussTrick
                 numbers.Remove(numbers[secondIndex]);
                 secondIndex--;
             }
+
             Console.WriteLine(string.Join(" ", numbers));
         }
     }

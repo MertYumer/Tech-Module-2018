@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P07_AppendArrays
+﻿namespace P07_AppendArrays
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -11,9 +11,11 @@ namespace P07_AppendArrays
             var numbers = Console.ReadLine().Split('|').ToList();
             var finalList = new List<string>();
             numbers.Reverse();
+
             foreach (var item in numbers)
             {
                 string[] currentNumbers = item.Split(' ');
+
                 foreach (var number in currentNumbers)
                 {
                     if (number != "")
@@ -22,6 +24,7 @@ namespace P07_AppendArrays
                     }
                 }
             }
+
             Console.WriteLine(string.Join(" ", finalList));
         }
     }

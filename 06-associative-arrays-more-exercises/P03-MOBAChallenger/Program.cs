@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P03_MOBAChallenger
+﻿namespace P03_MOBAChallenger
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -83,6 +83,7 @@ namespace P03_MOBAChallenger
                     var pair = SearchMatches(firstDictionary, secondDictionary);
                     string firstPosition = pair.Item1;
                     string secondPosition = pair.Item2;
+
                     if (firstPosition != "" && secondPosition != "")
                     {
                         int firstValue = 0;
@@ -122,6 +123,7 @@ namespace P03_MOBAChallenger
             Dictionary<string, int> secondDictionary)
         {
             var result = new Tuple<string, string>("", "");
+
             foreach (var firstPosition in firstDictionary)
             {
                 foreach (var secondPosition in secondDictionary)
@@ -133,6 +135,7 @@ namespace P03_MOBAChallenger
                     }
                 }
             }
+
             return result;
         }
 

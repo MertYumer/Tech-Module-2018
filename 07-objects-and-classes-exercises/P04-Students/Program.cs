@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P04_Students
+﻿namespace P04_Students
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -36,7 +36,9 @@ namespace P04_Students
     public class Student
     {
         public string FirstName { get; set; }
+
         public string LastName { get; set; }
+
         public double Grade { get; set; }
 
         public override string ToString()

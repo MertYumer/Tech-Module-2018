@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P06_VehicleCatalogue
+﻿namespace P06_VehicleCatalogue
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -44,7 +44,9 @@ namespace P06_VehicleCatalogue
                 {
                     break;
                 }
+
                 var vehicle = vehicles.Where(x => x.Model == choosenModel).First();
+
                 Console.WriteLine($"Type: {vehicle.Type}");
                 Console.WriteLine($"Model: {vehicle.Model}");
                 Console.WriteLine($"Color: {vehicle.Colour}");
@@ -81,8 +83,11 @@ namespace P06_VehicleCatalogue
     public class Vehicle
     {
         public string Type { get; set; }
+
         public string Model { get; set; }
+
         public string Colour { get; set; }
+
         public int HorsePower { get; set; }
     }
 }

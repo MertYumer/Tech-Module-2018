@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text;
-
-namespace P02_RepeatStrings
+﻿namespace P02_RepeatStrings
 {
+    using System;
+    using System.Text;
+
     public class Program
     {
         public static void Main()

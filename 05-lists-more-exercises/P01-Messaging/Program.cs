@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P01_Messaging
+﻿namespace P01_Messaging
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -30,6 +30,7 @@ namespace P01_Messaging
                 text.RemoveAt(sum);
                 sum = 0;
             }
+
             Console.WriteLine();
         }
     }

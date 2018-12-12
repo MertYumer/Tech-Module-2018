@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P03_QuestsJournal
+﻿namespace P03_QuestsJournal
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -24,6 +23,7 @@ namespace P03_QuestsJournal
                 else if (command[0] == "Start")
                 {
                     string quest = command[1];
+
                     if (!list.Contains(quest))
                     {
                         list.Add(quest);
@@ -40,6 +40,7 @@ namespace P03_QuestsJournal
                 {
                     string quest = command[1];
                     string sideQuest = command[2];
+
                     if (!list.Contains(sideQuest) && list.Contains(quest))
                     {
                         int index = list.IndexOf(quest) + 1;

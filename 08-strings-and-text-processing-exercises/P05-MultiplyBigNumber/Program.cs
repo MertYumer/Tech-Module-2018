@@ -1,9 +1,8 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-
-namespace P05_MultiplyBigNumber
+﻿namespace P05_MultiplyBigNumber
 {
+    using System;
+    using System.Text;
+
     public class Program
     {
         public static void Main()

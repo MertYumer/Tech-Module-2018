@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P04_TribonacciSequence
+﻿namespace P04_TribonacciSequence
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -24,6 +24,7 @@ namespace P04_TribonacciSequence
                 sequence[1] = sequence[2];
                 sequence[2] = sequence[3];
             }
+
             Console.WriteLine();
         }
     }

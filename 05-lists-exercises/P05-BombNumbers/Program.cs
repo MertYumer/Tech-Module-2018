@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace P05_BombNumbers
+﻿namespace P05_BombNumbers
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -21,6 +21,7 @@ namespace P05_BombNumbers
                     i = 0;
                 }
             }
+
             Console.WriteLine(numbers.Sum());
         }
     }

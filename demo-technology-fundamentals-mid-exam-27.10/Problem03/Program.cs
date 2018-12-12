@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace Problem03
+﻿namespace Problem03
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     class Program
     {
         static void Main(string[] args)
@@ -17,6 +17,7 @@ namespace Problem03
             while (true)
             {
                 string command = Console.ReadLine();
+
                 if (command == "Bake It!")
                 {
                     Console.WriteLine($"Best Batch quality: {bestQuality}");

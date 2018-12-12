@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P05_SoftUniParking
+﻿namespace P05_SoftUniParking
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -36,6 +36,7 @@ namespace P05_SoftUniParking
         public static void RegisterUser(string[] currentUser, Dictionary<string, string> users)
         {
             string userPlate = currentUser[2];
+
             if (users.ContainsKey(currentUser[1]))
             {
                 Console.WriteLine($"ERROR: already registered with plate number {userPlate}");

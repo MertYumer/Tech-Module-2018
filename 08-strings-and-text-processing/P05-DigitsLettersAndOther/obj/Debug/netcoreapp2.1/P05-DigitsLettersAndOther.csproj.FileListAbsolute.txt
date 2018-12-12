@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\08-strings-and-text-processing\P05-DigitsLettersAnd
 D:\Projects\Tech Module 2018\08-strings-and-text-processing\P05-DigitsLettersAndOther\obj\Debug\netcoreapp2.1\P05-DigitsLettersAndOther.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\08-strings-and-text-processing\P05-DigitsLettersAndOther\obj\Debug\netcoreapp2.1\P05-DigitsLettersAndOther.dll
 D:\Projects\Tech Module 2018\08-strings-and-text-processing\P05-DigitsLettersAndOther\obj\Debug\netcoreapp2.1\P05-DigitsLettersAndOther.pdb
+D:\Projects\Tech Module 2018\08-strings-and-text-processing\P05-DigitsLettersAndOther\obj\Debug\netcoreapp2.1\P05-DigitsLettersAndOther.csprojAssemblyReference.cache

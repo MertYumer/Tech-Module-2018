@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P04_RawData
+﻿namespace P04_RawData
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -29,6 +29,7 @@ namespace P04_RawData
             if (type == "fragile")
             {
                 var result = cars.Where(x => x.CargoType == type && x.CargoWeight < 1000);
+
                 foreach (var car in result)
                 {
                     Console.WriteLine(car.Model);

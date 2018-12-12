@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P03_SpeedRacing
+﻿namespace P03_SpeedRacing
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -32,6 +31,7 @@ namespace P03_SpeedRacing
                     {
                         Console.WriteLine($"{car.Model} {car.TotalFuel:F2} {car.Distance}");
                     }
+
                     break;
                 }
 
@@ -39,13 +39,13 @@ namespace P03_SpeedRacing
                 int kilometers = int.Parse(command[2]);
 
                 MoveCar(model, kilometers, cars);
-
             }
         }
 
         public static void MoveCar(string model, int kilometers, List<Car> cars)
         {
             var car = cars.Find(x => x.Model == model);
+
             if (kilometers * car.LitersPerKm <= car.TotalFuel)
             {
                 car.TotalFuel -= kilometers * car.LitersPerKm;

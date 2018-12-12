@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P04_Orders
+﻿namespace P04_Orders
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -14,14 +14,17 @@ namespace P04_Orders
             while (true)
             {
                 var currentProduct = Console.ReadLine().Split().ToArray();
+
                 if (currentProduct[0] == "buy")
                 {
                     int counter = 0;
+
                     foreach (var product in products)
                     {
                         Console.WriteLine($"{product.Key} -> {product.Value * prices[counter]}");
                         counter++;
                     }
+
                     break;
                 }
 

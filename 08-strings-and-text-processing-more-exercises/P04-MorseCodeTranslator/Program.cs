@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text;
-
-namespace P04_MorseCodeTranslator
+﻿namespace P04_MorseCodeTranslator
 {
+    using System;
+    using System.Text;
+
     public class Program
     {
         public static void Main()
@@ -123,6 +123,7 @@ namespace P04_MorseCodeTranslator
                         break;
                 }
             }
+
             Console.WriteLine(message);
         }
     }

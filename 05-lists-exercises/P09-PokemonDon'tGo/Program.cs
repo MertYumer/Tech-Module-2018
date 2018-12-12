@@ -1,19 +1,21 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P09_PokemonDon_tGo
+﻿namespace P09_PokemonDon_tGo
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
         {
             var pokemons = Console.ReadLine().Split().Select(long.Parse).ToList();
             var collectedPokemons = new List<long>();
+
             while (pokemons.Count != 0)
             {
                 int index = int.Parse(Console.ReadLine());
                 long removedPokemon = 0;
+
                 if (index < 0)
                 {
                     removedPokemon = pokemons[0];
@@ -50,6 +52,7 @@ namespace P09_PokemonDon_tGo
                     }
                 }
             }
+
             Console.WriteLine(collectedPokemons.Sum());
         }
     }

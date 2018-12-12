@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P03_LegendaryFarming
+﻿namespace P03_LegendaryFarming
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -20,6 +20,7 @@ namespace P03_LegendaryFarming
             while (true)
             {
                 var materials = Console.ReadLine().Split(" ").ToArray();
+
                 for (int i = 0; i < materials.Length; i++)
                 {
                     if (i % 2 == 0)
@@ -55,9 +56,11 @@ namespace P03_LegendaryFarming
                                 case "shards":
                                     Console.WriteLine("Shadowmourne obtained!");
                                     break;
+
                                 case "fragments":
                                     Console.WriteLine("Valanyr obtained!");
                                     break;
+
                                 case "motes":
                                     Console.WriteLine("Dragonwrath obtained!");
                                     break;

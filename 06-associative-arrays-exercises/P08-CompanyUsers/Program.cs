@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P08_CompanyUsers
+﻿namespace P08_CompanyUsers
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     class Program
     {
         static void Main(string[] args)
@@ -29,6 +29,7 @@ namespace P08_CompanyUsers
                             Console.WriteLine($"-- " + course.Value[i]);
                         }
                     }
+
                     break;
                 }
 

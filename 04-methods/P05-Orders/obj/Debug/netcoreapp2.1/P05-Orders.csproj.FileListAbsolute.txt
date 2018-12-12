@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\04-methods\P05-Orders\obj\Debug\netcoreapp2.1\P05-O
 D:\Projects\Tech Module 2018\04-methods\P05-Orders\obj\Debug\netcoreapp2.1\P05-Orders.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\04-methods\P05-Orders\obj\Debug\netcoreapp2.1\P05-Orders.dll
 D:\Projects\Tech Module 2018\04-methods\P05-Orders\obj\Debug\netcoreapp2.1\P05-Orders.pdb
+D:\Projects\Tech Module 2018\04-methods\P05-Orders\obj\Debug\netcoreapp2.1\P05-Orders.csprojAssemblyReference.cache

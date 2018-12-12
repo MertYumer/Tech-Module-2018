@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P02_CharacterMultiplier
+﻿namespace P02_CharacterMultiplier
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -9,6 +9,7 @@ namespace P02_CharacterMultiplier
             var input = Console.ReadLine().Split();
             string firstWord = input[0];
             string secondWord = string.Empty;
+
             if (input.Length > 1)
             {
                 secondWord = input[1];

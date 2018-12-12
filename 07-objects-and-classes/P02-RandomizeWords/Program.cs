@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P02_RandomizeWords
+﻿namespace P02_RandomizeWords
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()

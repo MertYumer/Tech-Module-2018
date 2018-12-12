@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace P05_HTML
+﻿namespace P05_HTML
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()

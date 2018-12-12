@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\06-associative-arrays\P05-WordFilter\obj\Debug\netc
 D:\Projects\Tech Module 2018\06-associative-arrays\P05-WordFilter\obj\Debug\netcoreapp2.1\P05-WordFilter.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\06-associative-arrays\P05-WordFilter\obj\Debug\netcoreapp2.1\P05-WordFilter.dll
 D:\Projects\Tech Module 2018\06-associative-arrays\P05-WordFilter\obj\Debug\netcoreapp2.1\P05-WordFilter.pdb
+D:\Projects\Tech Module 2018\06-associative-arrays\P05-WordFilter\obj\Debug\netcoreapp2.1\P05-WordFilter.csprojAssemblyReference.cache

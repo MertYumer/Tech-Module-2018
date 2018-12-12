@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P03_WordSynonyms
+﻿namespace P03_WordSynonyms
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()

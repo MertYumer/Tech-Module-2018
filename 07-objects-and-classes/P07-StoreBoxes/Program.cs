@@ -1,22 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P07_StoreBoxes
+﻿namespace P07_StoreBoxes
 {
-    public class Item
-    {
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-    }
-
-    public class Box
-    {
-        public string SerialNumber { get; set; }
-        public Item Item { get; set; }
-        public int ItemQuantity { get; set; }
-        public decimal ItemPrice { get; set; }
-    }
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
     public class Program
     {
@@ -41,6 +27,7 @@ namespace P07_StoreBoxes
                             $"${box.ItemPrice:F2}: {box.ItemQuantity}");
                         Console.WriteLine($"-- ${box.Item.Price:F2}");
                     }
+
                     break;
                 }
 
@@ -59,5 +46,23 @@ namespace P07_StoreBoxes
                 boxes.Add(currentBox);
             }
         }
+    }
+
+    public class Item
+    {
+        public string Name { get; set; }
+
+        public decimal Price { get; set; }
+    }
+
+    public class Box
+    {
+        public string SerialNumber { get; set; }
+
+        public Item Item { get; set; }
+
+        public int ItemQuantity { get; set; }
+
+        public decimal ItemPrice { get; set; }
     }
 }

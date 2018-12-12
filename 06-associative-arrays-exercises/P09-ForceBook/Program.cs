@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P09_ForceBook
+﻿namespace P09_ForceBook
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main(string[] args)
@@ -95,6 +95,7 @@ namespace P09_ForceBook
             foreach (var side in forces)
             {
                 forceMembers = side.Value;
+
                 if (forceMembers.Contains(currentMember))
                 {
                     forceMembers.Remove(currentMember);

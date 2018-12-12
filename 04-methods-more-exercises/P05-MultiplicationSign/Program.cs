@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P05_MultiplicationSign
+﻿namespace P05_MultiplicationSign
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -16,6 +16,7 @@ namespace P05_MultiplicationSign
         public static void FindSign(int[] numbers)
         {
             int signs = 0;
+
             for (int i = 0; i < numbers.Length; i++)
             {
                 if (numbers[i] == 0)
@@ -23,6 +24,7 @@ namespace P05_MultiplicationSign
                     Console.WriteLine("zero");
                     return;
                 }
+
                 else if (numbers[i] < 0)
                 {
                     signs++;

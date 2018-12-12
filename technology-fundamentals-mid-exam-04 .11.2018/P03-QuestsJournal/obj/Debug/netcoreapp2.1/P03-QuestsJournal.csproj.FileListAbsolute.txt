@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\technology-fundamentals-mid-exam-04 .11.2018\P03-Qu
 D:\Projects\Tech Module 2018\technology-fundamentals-mid-exam-04 .11.2018\P03-QuestsJournal\obj\Debug\netcoreapp2.1\P03-QuestsJournal.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\technology-fundamentals-mid-exam-04 .11.2018\P03-QuestsJournal\obj\Debug\netcoreapp2.1\P03-QuestsJournal.dll
 D:\Projects\Tech Module 2018\technology-fundamentals-mid-exam-04 .11.2018\P03-QuestsJournal\obj\Debug\netcoreapp2.1\P03-QuestsJournal.pdb
+D:\Projects\Tech Module 2018\technology-fundamentals-mid-exam-04 .11.2018\P03-QuestsJournal\obj\Debug\netcoreapp2.1\P03-QuestsJournal.csprojAssemblyReference.cache

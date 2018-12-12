@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P01_CountCharsInString
+﻿namespace P01_CountCharsInString
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -19,6 +19,7 @@ namespace P01_CountCharsInString
                     {
                         occurences[letter] = 0;
                     }
+
                     occurences[letter]++;
                 }
             }

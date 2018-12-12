@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P05_ShoppingSpree
+﻿namespace P05_ShoppingSpree
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -12,6 +11,7 @@ namespace P05_ShoppingSpree
             var products = new List<Product>();
 
             var firstLine = Console.ReadLine().Split(';', StringSplitOptions.RemoveEmptyEntries);
+
             for (int i = 0; i < firstLine.Length; i++)
             {
                 var currentPerson = firstLine[i].Split('=');
@@ -24,6 +24,7 @@ namespace P05_ShoppingSpree
             }
 
             var secondLine = Console.ReadLine().Split(';', StringSplitOptions.RemoveEmptyEntries);
+
             for (int i = 0; i < secondLine.Length; i++)
             {
                 var currentProduct = secondLine[i].Split('=');
@@ -46,11 +47,13 @@ namespace P05_ShoppingSpree
                         {
                             Console.WriteLine($"{person.Name} - Nothing bought");
                         }
+
                         else
                         {
                             Console.WriteLine($"{person.Name} - {string.Join(", ", person.Bag)}");
                         }
                     }
+
                     break;
                 }
 
@@ -84,7 +87,9 @@ namespace P05_ShoppingSpree
     public class Person
     {
         public string Name { get; set; }
+
         public int Money { get; set; }
+
         public List<string> Bag { get; set; }
 
         public Person(string name, int money, List<string> bag)
@@ -98,6 +103,7 @@ namespace P05_ShoppingSpree
     public class Product
     {
         public string Name { get; set; }
+
         public int Price { get; set; }
 
         public Product(string name, int price)

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P01_ValidUsernames
+﻿namespace P01_ValidUsernames
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -26,6 +26,7 @@ namespace P01_ValidUsernames
                     {
                         Console.WriteLine(password);
                     }
+
                     isValid = true;
                 }
             }

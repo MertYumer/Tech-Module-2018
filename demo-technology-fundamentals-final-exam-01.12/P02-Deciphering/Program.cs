@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace P02_Deciphering
+﻿namespace P02_Deciphering
 {
+    using System;
+    using System.Text.RegularExpressions;
+
     public class Program
     {
         public static void Main()

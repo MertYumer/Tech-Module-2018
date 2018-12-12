@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P02_CenterPoint
+﻿namespace P02_CenterPoint
 {
+    using System;
+
     public class Program
     {
         public static void Main()

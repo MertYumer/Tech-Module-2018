@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\07-objects-and-classes-more-exercises\P01-CompanyRo
 D:\Projects\Tech Module 2018\07-objects-and-classes-more-exercises\P01-CompanyRoster\obj\Debug\netcoreapp2.1\P01-CompanyRoster.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\07-objects-and-classes-more-exercises\P01-CompanyRoster\obj\Debug\netcoreapp2.1\P01-CompanyRoster.dll
 D:\Projects\Tech Module 2018\07-objects-and-classes-more-exercises\P01-CompanyRoster\obj\Debug\netcoreapp2.1\P01-CompanyRoster.pdb
+D:\Projects\Tech Module 2018\07-objects-and-classes-more-exercises\P01-CompanyRoster\obj\Debug\netcoreapp2.1\P01-CompanyRoster.csprojAssemblyReference.cache

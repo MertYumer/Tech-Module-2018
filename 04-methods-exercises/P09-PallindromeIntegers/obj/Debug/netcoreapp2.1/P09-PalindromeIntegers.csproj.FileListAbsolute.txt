@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\04-methods-exercises\P09-PallindromeIntegers\bin\De
 D:\Projects\Tech Module 2018\04-methods-exercises\P09-PallindromeIntegers\bin\Debug\netcoreapp2.1\P09-PalindromeIntegers.pdb
 D:\Projects\Tech Module 2018\04-methods-exercises\P09-PallindromeIntegers\obj\Debug\netcoreapp2.1\P09-PalindromeIntegers.dll
 D:\Projects\Tech Module 2018\04-methods-exercises\P09-PallindromeIntegers\obj\Debug\netcoreapp2.1\P09-PalindromeIntegers.pdb
+D:\Projects\Tech Module 2018\04-methods-exercises\P09-PallindromeIntegers\obj\Debug\netcoreapp2.1\P09-PalindromeIntegers.csprojAssemblyReference.cache

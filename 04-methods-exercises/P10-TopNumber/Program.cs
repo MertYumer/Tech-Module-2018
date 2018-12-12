@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P10_TopNumber
+﻿namespace P10_TopNumber
 {
+    using System;
+
     public class Program
     {
         static void Main()
@@ -16,6 +16,7 @@ namespace P10_TopNumber
             {
                 int element = i;
                 int sum = 0;
+
                 while (element != 0)
                 {
                     sum += element % 10;
@@ -25,6 +26,7 @@ namespace P10_TopNumber
                 if (sum % 8 == 0)
                 {
                     bool isOdd = FindOddDigit(i);
+
                     if (isOdd)
                     {
                         Console.WriteLine(i);

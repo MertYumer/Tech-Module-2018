@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\07-objects-and-classes\P03-BigFactorial\obj\Debug\n
 D:\Projects\Tech Module 2018\07-objects-and-classes\P03-BigFactorial\obj\Debug\netcoreapp2.1\P03-BigFactorial.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\07-objects-and-classes\P03-BigFactorial\obj\Debug\netcoreapp2.1\P03-BigFactorial.dll
 D:\Projects\Tech Module 2018\07-objects-and-classes\P03-BigFactorial\obj\Debug\netcoreapp2.1\P03-BigFactorial.pdb
+D:\Projects\Tech Module 2018\07-objects-and-classes\P03-BigFactorial\obj\Debug\netcoreapp2.1\P03-BigFactorial.csprojAssemblyReference.cache

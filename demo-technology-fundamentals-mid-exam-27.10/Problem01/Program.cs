@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Problem01
+﻿namespace Problem01
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)
@@ -11,6 +11,7 @@ namespace Problem01
             decimal flourPrice = decimal.Parse(Console.ReadLine());
             decimal eggPrice = decimal.Parse(Console.ReadLine());
             decimal apronPrice = decimal.Parse(Console.ReadLine());
+
             decimal totalPrice = 0.0m;
             totalPrice += (flourPrice * (students - (students / 5)));
             totalPrice += (eggPrice * 10 * students);
@@ -20,6 +21,7 @@ namespace Problem01
             {
                 Console.WriteLine($"Items purchased for {totalPrice:F2}$.");
             }
+
             else
             {
                 Console.WriteLine($"{(totalPrice - budget):F2}$ more needed.");

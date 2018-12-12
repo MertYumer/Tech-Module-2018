@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace P05_DrumSet
+﻿namespace P05_DrumSet
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()

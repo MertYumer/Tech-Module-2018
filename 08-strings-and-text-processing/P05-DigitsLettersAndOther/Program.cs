@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text;
-
-namespace P05_DigitsLettersAndOther
+﻿namespace P05_DigitsLettersAndOther
 {
+    using System;
+    using System.Text;
+
     public class Program
     {
         public static void Main()

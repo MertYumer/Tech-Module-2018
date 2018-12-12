@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text;
-
-namespace P05_CaesarCipher
+﻿namespace P05_CaesarCipher
 {
+    using System;
+    using System.Text;
+
     public class Program
     {
         public static void Main()

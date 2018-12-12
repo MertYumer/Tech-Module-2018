@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P03_TakeSkipRope
+﻿namespace P03_TakeSkipRope
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     class Program
     {
         static void Main()
@@ -20,6 +20,7 @@ namespace P03_TakeSkipRope
                 {
                     break;
                 }
+
                 if (int.TryParse(text[i], out number))
                 {
                     digits.Add(Convert.ToInt32(text[i]));
@@ -38,11 +39,13 @@ namespace P03_TakeSkipRope
                 if (i % 2 == 0)
                 {
                     takeList.Add(digits[i]);
+
                     for (int j = currentIndex; j < currentIndex + 
                         Math.Min(digits[i], text.Count - currentIndex); j++)
                     {
                         result += text[j];
                     }
+
                     currentIndex += digits[i];
                 }
 
@@ -52,6 +55,7 @@ namespace P03_TakeSkipRope
                     currentIndex += digits[i];
                 }
             }
+
             Console.WriteLine(result);
         }
     }

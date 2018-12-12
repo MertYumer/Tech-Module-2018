@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P02_OddOccurrences
+﻿namespace P02_OddOccurrences
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -32,6 +32,7 @@ namespace P02_OddOccurrences
                     Console.Write(occurrence.Key + " ");
                 }
             }
+
             Console.WriteLine();
         }
     }

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P04_LargestThreeNumbers
+﻿namespace P04_LargestThreeNumbers
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()

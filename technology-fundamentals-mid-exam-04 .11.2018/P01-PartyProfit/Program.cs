@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P01_PartyProfit
+﻿namespace P01_PartyProfit
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -28,6 +28,7 @@ namespace P01_PartyProfit
                 {
                     coins -= (partySize * 5);
                 }
+
                 else
                 {
                     coins -= (partySize * 2);

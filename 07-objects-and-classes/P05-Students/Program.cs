@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace P05_Students
+﻿namespace P05_Students
 {
-    public class Student
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Age { get; set; }
-        public string City { get; set; }
-    }
+    using System;
+    using System.Collections.Generic;
 
     public class Program
     {
@@ -51,5 +43,16 @@ namespace P05_Students
                 }
             }
         }
+    }
+
+    public class Student
+    {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public int Age { get; set; }
+
+        public string City { get; set; }
     }
 }
