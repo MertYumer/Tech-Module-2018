@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Library.Models;
-using Microsoft.AspNetCore.Mvc;
-using Library.Data;
-
-namespace Library.Controllers
+﻿namespace Library.Controllers
 {
+    using System.Linq;
+    using Library.Models;
+    using Library.Data;
+    using Microsoft.AspNetCore.Mvc;
+
     public class LibraryController : Controller
     {
         [HttpGet]
@@ -37,9 +35,8 @@ namespace Library.Controllers
             {
                 db.Books.Add(book);
                 db.SaveChanges();
+                return RedirectToAction("Index");
             }
-
-            return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -72,6 +69,7 @@ namespace Library.Controllers
                     db.SaveChanges();
                 }
             }
+
             return RedirectToAction("Index");
         }
 
@@ -94,17 +92,20 @@ namespace Library.Controllers
         [HttpPost]
         public IActionResult Delete(Book book)
         {
+
             using (var db = new LibraryDbContext())
             {
                 Book currentBook = db.Books.FirstOrDefault(b => b.Id == book.Id);
-                if (currentBook != null)
-                {
-                    db.Books.Remove(currentBook);
-                    db.SaveChanges();
-                }
-            }
 
-            return RedirectToAction("Index");
+                if (currentBook == null)
+                {
+                    return RedirectToAction("Index");
+                }
+
+                db.Books.Remove(currentBook);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
         }
     }
 }

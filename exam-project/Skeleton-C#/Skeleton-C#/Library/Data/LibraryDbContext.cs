@@ -1,11 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Library.Models;
-
-namespace Library.Data
+﻿namespace Library.Data
 {
+    using Library.Models;
+    using Microsoft.EntityFrameworkCore;
+
     public class LibraryDbContext : DbContext
     {
         public DbSet<Book> Books { get; set; }

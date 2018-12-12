@@ -11,8 +11,8 @@ using System;
 namespace Library.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20181207123703_Initial")]
-    partial class Initial
+    [Migration("20181212171200_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
