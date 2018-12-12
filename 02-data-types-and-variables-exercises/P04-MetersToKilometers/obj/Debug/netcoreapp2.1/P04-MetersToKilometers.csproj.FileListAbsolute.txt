@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P04-MetersToK
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P04-MetersToKilometers\obj\Debug\netcoreapp2.1\P04-MetersToKilometers.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P04-MetersToKilometers\obj\Debug\netcoreapp2.1\P04-MetersToKilometers.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P04-MetersToKilometers\obj\Debug\netcoreapp2.1\P04-MetersToKilometers.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P04-MetersToKilometers\obj\Debug\netcoreapp2.1\P04-MetersToKilometers.csprojAssemblyReference.cache

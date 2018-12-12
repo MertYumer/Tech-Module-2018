@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace P02_CircleArea
+﻿namespace P02_CircleArea
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             double rarius = double.Parse(Console.ReadLine());
             double area = Math.PI * rarius * rarius;

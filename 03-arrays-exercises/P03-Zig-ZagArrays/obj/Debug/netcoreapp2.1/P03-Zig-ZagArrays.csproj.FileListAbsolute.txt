@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\03-arrays-exercises\P03-Zig-ZagArrays\obj\Debug\net
 D:\Projects\Tech Module 2018\03-arrays-exercises\P03-Zig-ZagArrays\obj\Debug\netcoreapp2.1\P03-Zig-ZagArrays.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\03-arrays-exercises\P03-Zig-ZagArrays\obj\Debug\netcoreapp2.1\P03-Zig-ZagArrays.dll
 D:\Projects\Tech Module 2018\03-arrays-exercises\P03-Zig-ZagArrays\obj\Debug\netcoreapp2.1\P03-Zig-ZagArrays.pdb
+D:\Projects\Tech Module 2018\03-arrays-exercises\P03-Zig-ZagArrays\obj\Debug\netcoreapp2.1\P03-Zig-ZagArrays.csprojAssemblyReference.cache

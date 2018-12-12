@@ -1,14 +1,15 @@
-﻿using System;
-
-namespace P03_TownInfo
+﻿namespace P03_TownInfo
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string town = Console.ReadLine();
             int population = int.Parse(Console.ReadLine());
             int area = int.Parse(Console.ReadLine());
+
             Console.WriteLine($"Town {town} has population of {population} and area {area} square km.");
         }
     }

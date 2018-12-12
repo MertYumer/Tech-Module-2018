@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace P05_PoundsToDollars
+﻿namespace P05_PoundsToDollars
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             decimal pounds = decimal.Parse(Console.ReadLine());
             decimal dollars = pounds * 1.31m;

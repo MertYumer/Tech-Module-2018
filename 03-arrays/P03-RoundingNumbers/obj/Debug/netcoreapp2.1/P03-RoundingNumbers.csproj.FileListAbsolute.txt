@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\03-arrays\P03-RoundingNumbers\obj\Debug\netcoreapp2
 D:\Projects\Tech Module 2018\03-arrays\P03-RoundingNumbers\obj\Debug\netcoreapp2.1\P03-RoundingNumbers.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\03-arrays\P03-RoundingNumbers\obj\Debug\netcoreapp2.1\P03-RoundingNumbers.dll
 D:\Projects\Tech Module 2018\03-arrays\P03-RoundingNumbers\obj\Debug\netcoreapp2.1\P03-RoundingNumbers.pdb
+D:\Projects\Tech Module 2018\03-arrays\P03-RoundingNumbers\obj\Debug\netcoreapp2.1\P03-RoundingNumbers.csprojAssemblyReference.cache

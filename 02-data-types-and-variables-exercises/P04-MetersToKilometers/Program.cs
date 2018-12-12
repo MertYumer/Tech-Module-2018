@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace P04_MetersToKilometers
+﻿namespace P04_MetersToKilometers
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int meters = int.Parse(Console.ReadLine());
             double km = meters / 1000.0;

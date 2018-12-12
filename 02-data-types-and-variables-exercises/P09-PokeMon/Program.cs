@@ -1,20 +1,22 @@
-﻿using System;
-
-namespace P09_PokeMon
+﻿namespace P09_PokeMon
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             long pokePower = long.Parse(Console.ReadLine());
             decimal halfPower = pokePower / 2.0m;
             int distance = int.Parse(Console.ReadLine());
             int exhaustionFactor = int.Parse(Console.ReadLine());
             int targetCount = 0;
+
             while (pokePower >= distance)
             {
                 pokePower -= distance;
                 targetCount++;
+
                 if (pokePower == halfPower)
                 {
                     if (exhaustionFactor > 0)
@@ -23,6 +25,7 @@ namespace P09_PokeMon
                     }
                 }
             }
+
             Console.WriteLine(pokePower);
             Console.WriteLine(targetCount);
         }

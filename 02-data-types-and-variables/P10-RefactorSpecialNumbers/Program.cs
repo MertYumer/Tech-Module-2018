@@ -1,13 +1,14 @@
-﻿using System;
-
-namespace P10_RefactorSpecialNumbers
+﻿namespace P10_RefactorSpecialNumbers
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int num = int.Parse(Console.ReadLine());
             int sum = 0; bool special = false;
+
             for (int i = 1; i <= num; i++)
             {
                 sum = (i % 10) + (i / 10);

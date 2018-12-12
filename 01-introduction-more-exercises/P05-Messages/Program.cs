@@ -7,7 +7,7 @@
         public static void Main()
         {
             int number = int.Parse(Console.ReadLine());
-            string message = "";
+            string message = string.Empty;
             int digitLength = 0;
             int mainDigit = 0;
             int offset = 0;
@@ -17,6 +17,7 @@
             for (int i = 0; i < number; i++)
             {
                 int input = int.Parse(Console.ReadLine());
+
                 if (input / 1000 > 0)
                 {
                     digitLength = 4;

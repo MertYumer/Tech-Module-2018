@@ -1,14 +1,15 @@
-﻿using System;
-
-namespace P08_ConcatNames
+﻿namespace P08_ConcatNames
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string firstName = Console.ReadLine();
             string lastName = Console.ReadLine();
             string delimiter = Console.ReadLine();
+
             Console.WriteLine($"{firstName}{delimiter}{lastName}");
         }
     }

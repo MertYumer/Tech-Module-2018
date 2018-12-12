@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables\P05-CenturiesToMinutes\
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P05-CenturiesToMinutes\obj\Debug\netcoreapp2.1\P05-CenturiesToMinutes.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P05-CenturiesToMinutes\obj\Debug\netcoreapp2.1\P05-CenturiesToMinutes.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P05-CenturiesToMinutes\obj\Debug\netcoreapp2.1\P05-CenturiesToMinutes.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables\P05-CenturiesToMinutes\obj\Debug\netcoreapp2.1\P05-CenturiesToMinutes.csprojAssemblyReference.cache

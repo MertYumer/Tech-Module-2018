@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables\P02-CircleArea\obj\Debu
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P02-CircleArea\obj\Debug\netcoreapp2.1\P02-CircleArea.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P02-CircleArea\obj\Debug\netcoreapp2.1\P02-CircleArea.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P02-CircleArea\obj\Debug\netcoreapp2.1\P02-CircleArea.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables\P02-CircleArea\obj\Debug\netcoreapp2.1\P02-CircleArea.csprojAssemblyReference.cache

@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P09-PadawanEqui
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P09-PadawanEquipment\obj\Debug\netcoreapp2.1\P09-PadawanEquipment.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P09-PadawanEquipment\obj\Debug\netcoreapp2.1\P09-PadawanEquipment.dll
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P09-PadawanEquipment\obj\Debug\netcoreapp2.1\P09-PadawanEquipment.pdb
+D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P09-PadawanEquipment\obj\Debug\netcoreapp2.1\P09-PadawanEquipment.csprojAssemblyReference.cache

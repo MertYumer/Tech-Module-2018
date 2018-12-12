@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables\P03-ExactSumOfRealNumbe
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P03-ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03-ExactSumOfRealNumbers.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P03-ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03-ExactSumOfRealNumbers.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables\P03-ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03-ExactSumOfRealNumbers.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables\P03-ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03-ExactSumOfRealNumbers.csprojAssemblyReference.cache

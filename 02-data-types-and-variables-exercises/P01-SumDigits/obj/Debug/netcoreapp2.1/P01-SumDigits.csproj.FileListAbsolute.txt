@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P01-SumDigits
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P01-SumDigits\obj\Debug\netcoreapp2.1\P01-SumDigits.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P01-SumDigits\obj\Debug\netcoreapp2.1\P01-SumDigits.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P01-SumDigits\obj\Debug\netcoreapp2.1\P01-SumDigits.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P01-SumDigits\obj\Debug\netcoreapp2.1\P01-SumDigits.csprojAssemblyReference.cache

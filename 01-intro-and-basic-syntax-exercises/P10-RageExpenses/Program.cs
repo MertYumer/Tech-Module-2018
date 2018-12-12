@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace P10_RageExpenses
+﻿namespace P10_RageExpenses
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int lostGames = int.Parse(Console.ReadLine());
             decimal headsetPrice = decimal.Parse(Console.ReadLine());
@@ -13,6 +13,7 @@ namespace P10_RageExpenses
             decimal displayPrice = decimal.Parse(Console.ReadLine());
             decimal totalSum = 0.0m;
             int counter = 0;
+
             for (int i = 1; i <= lostGames; i++)
             {
                 if (i % 2 == 0 || i % 3 == 0)
@@ -26,16 +27,19 @@ namespace P10_RageExpenses
                             totalSum += displayPrice;
                         }
                     }
+
                     if (i % 2 == 0)
                     {
                         totalSum += headsetPrice;
                     }
+
                     if (i % 3 == 0)
                     {
                         totalSum += mousePrice;
                     }
                 }
             }
+
             Console.WriteLine($"Rage expenses: {totalSum:F2} lv.");
         }
     }

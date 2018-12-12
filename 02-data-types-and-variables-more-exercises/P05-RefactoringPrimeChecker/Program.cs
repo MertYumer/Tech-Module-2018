@@ -1,15 +1,17 @@
-﻿using System;
-
-namespace P05_RefactoringPrimeChecker
+﻿namespace P05_RefactoringPrimeChecker
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int number = int.Parse(Console.ReadLine());
+
             for (int i = 2; i <= number; i++)
             {
                 bool prime = true;
+
                 for (int j = 2; j < i; j++)
                 {
                     if (i % j == 0)
@@ -18,6 +20,7 @@ namespace P05_RefactoringPrimeChecker
                         break;
                     }
                 }
+
                 Console.WriteLine($"{i} -> {prime.ToString().ToLower()}");
             }
         }

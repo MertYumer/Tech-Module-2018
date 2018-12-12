@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace P04_ReverseArrayOfStrings
+﻿namespace P04_ReverseArrayOfStrings
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()

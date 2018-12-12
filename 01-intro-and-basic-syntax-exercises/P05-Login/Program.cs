@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace P05_Login
+﻿namespace P05_Login
 {
+    using System;
+
     public class Program
     {
         public static void Main()
@@ -17,10 +17,12 @@ namespace P05_Login
 
             string login = "";
             int counter = 0;
+
             while (login != password)
             {
                 login = Console.ReadLine();
-                counter++;               
+                counter++; 
+                
                 if (login != password)
                 {
                     if (counter == 4)
@@ -28,8 +30,10 @@ namespace P05_Login
                         Console.WriteLine($"User {username} blocked!");
                         break;
                     }
+
                     Console.WriteLine("Incorrect password. Try again.");
                 }
+
                 else if (login == password)
                 {
                     Console.WriteLine($"User {username} logged in.");

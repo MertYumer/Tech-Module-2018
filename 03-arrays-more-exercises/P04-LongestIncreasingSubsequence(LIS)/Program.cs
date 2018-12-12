@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P04_LongestIncreasingSubsequence_LIS_
+﻿namespace P04_LongestIncreasingSubsequence_LIS_
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main(string[] args)
@@ -36,6 +36,7 @@ namespace P04_LongestIncreasingSubsequence_LIS_
             }
 
             List<int> longestSeq = new List<int>();
+
             for (int i = 0; i < maxLength; i++)
             {
                 longestSeq.Add(numbers[lastIndex]);

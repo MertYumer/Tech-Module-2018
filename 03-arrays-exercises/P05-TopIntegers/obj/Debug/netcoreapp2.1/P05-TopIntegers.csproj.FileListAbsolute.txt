@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\03-arrays-exercises\P05-TopIntegers\obj\Debug\netco
 D:\Projects\Tech Module 2018\03-arrays-exercises\P05-TopIntegers\obj\Debug\netcoreapp2.1\P05-TopIntegers.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\03-arrays-exercises\P05-TopIntegers\obj\Debug\netcoreapp2.1\P05-TopIntegers.dll
 D:\Projects\Tech Module 2018\03-arrays-exercises\P05-TopIntegers\obj\Debug\netcoreapp2.1\P05-TopIntegers.pdb
+D:\Projects\Tech Module 2018\03-arrays-exercises\P05-TopIntegers\obj\Debug\netcoreapp2.1\P05-TopIntegers.csprojAssemblyReference.cache

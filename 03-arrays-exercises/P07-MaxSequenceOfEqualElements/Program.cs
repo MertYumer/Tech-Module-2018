@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace P07_MaxSequenceOfEqualElements
+﻿namespace P07_MaxSequenceOfEqualElements
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -11,26 +11,31 @@ namespace P07_MaxSequenceOfEqualElements
             int sequence = 1;
             int bestSequence = 1;
             int element = 0;
+
             for (int i = 0; i < numbers.Length - 1; i++)
             {
                 if (numbers[i] == numbers[i + 1])
                 {
                     sequence++;
                 }
+
                 else
                 {
                     sequence = 1;
                 }
+
                 if (sequence > bestSequence)
                 {
                     bestSequence = sequence;
                     element = numbers[i];
                 }
             }
+
             for (int i = 0; i < bestSequence; i++)
             {
                 Console.Write(element + " ");
             }
+
             Console.WriteLine();
         }
     }

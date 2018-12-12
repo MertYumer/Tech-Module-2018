@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\03-arrays-exercises\P06-EqualSums\obj\Debug\netcore
 D:\Projects\Tech Module 2018\03-arrays-exercises\P06-EqualSums\obj\Debug\netcoreapp2.1\P06-EqualSums.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\03-arrays-exercises\P06-EqualSums\obj\Debug\netcoreapp2.1\P06-EqualSums.dll
 D:\Projects\Tech Module 2018\03-arrays-exercises\P06-EqualSums\obj\Debug\netcoreapp2.1\P06-EqualSums.pdb
+D:\Projects\Tech Module 2018\03-arrays-exercises\P06-EqualSums\obj\Debug\netcoreapp2.1\P06-EqualSums.csprojAssemblyReference.cache

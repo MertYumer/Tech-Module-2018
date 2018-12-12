@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P03-TownInfo\
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P03-TownInfo\obj\Debug\netcoreapp2.1\P03-TownInfo.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P03-TownInfo\obj\Debug\netcoreapp2.1\P03-TownInfo.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P03-TownInfo\obj\Debug\netcoreapp2.1\P03-TownInfo.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P03-TownInfo\obj\Debug\netcoreapp2.1\P03-TownInfo.csprojAssemblyReference.cache

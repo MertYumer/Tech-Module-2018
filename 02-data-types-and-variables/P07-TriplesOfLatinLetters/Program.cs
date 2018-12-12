@@ -1,13 +1,14 @@
-﻿using System;
-
-namespace P07_TriplesOfLatinLetters
+﻿namespace P07_TriplesOfLatinLetters
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             char letter = (char)('a' + n);
+
             for (char i = 'a'; i < letter; i++)
             {
                 for (char j = 'a'; j < letter; j++)

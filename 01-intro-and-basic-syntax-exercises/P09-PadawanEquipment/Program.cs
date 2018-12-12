@@ -1,16 +1,17 @@
-﻿using System;
-
-namespace P09_PadawanEquipment
+﻿namespace P09_PadawanEquipment
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             decimal money = decimal.Parse(Console.ReadLine());
             int students = int.Parse(Console.ReadLine());
             decimal lightsaberPrice = decimal.Parse(Console.ReadLine());
             decimal robePrice = decimal.Parse(Console.ReadLine());
             decimal beltPrice = decimal.Parse(Console.ReadLine());
+
             decimal lightsaberSum = (students + (Math.Ceiling(students * 0.1m))) * lightsaberPrice;
             decimal robeSum = students * robePrice;
             decimal beltSum = (students - (students / 6)) * beltPrice;

@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P02-CharsToSt
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P02-CharsToString\obj\Debug\netcoreapp2.1\P02-CharsToString.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P02-CharsToString\obj\Debug\netcoreapp2.1\P02-CharsToString.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P02-CharsToString\obj\Debug\netcoreapp2.1\P02-CharsToString.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables-exercises\P02-CharsToString\obj\Debug\netcoreapp2.1\P02-CharsToString.csprojAssemblyReference.cache

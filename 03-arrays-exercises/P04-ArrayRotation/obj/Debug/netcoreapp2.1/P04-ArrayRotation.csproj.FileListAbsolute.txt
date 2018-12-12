@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\03-arrays-exercises\P04-ArrayRotation\obj\Debug\net
 D:\Projects\Tech Module 2018\03-arrays-exercises\P04-ArrayRotation\obj\Debug\netcoreapp2.1\P04-ArrayRotation.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\03-arrays-exercises\P04-ArrayRotation\obj\Debug\netcoreapp2.1\P04-ArrayRotation.dll
 D:\Projects\Tech Module 2018\03-arrays-exercises\P04-ArrayRotation\obj\Debug\netcoreapp2.1\P04-ArrayRotation.pdb
+D:\Projects\Tech Module 2018\03-arrays-exercises\P04-ArrayRotation\obj\Debug\netcoreapp2.1\P04-ArrayRotation.csprojAssemblyReference.cache

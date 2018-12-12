@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\02-data-types-and-variables-more-exercises\P04-Floa
 D:\Projects\Tech Module 2018\02-data-types-and-variables-more-exercises\P04-FloatingEquality\obj\Debug\netcoreapp2.1\P04-FloatingEquality.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\02-data-types-and-variables-more-exercises\P04-FloatingEquality\obj\Debug\netcoreapp2.1\P04-FloatingEquality.dll
 D:\Projects\Tech Module 2018\02-data-types-and-variables-more-exercises\P04-FloatingEquality\obj\Debug\netcoreapp2.1\P04-FloatingEquality.pdb
+D:\Projects\Tech Module 2018\02-data-types-and-variables-more-exercises\P04-FloatingEquality\obj\Debug\netcoreapp2.1\P04-FloatingEquality.csprojAssemblyReference.cache

@@ -1,16 +1,18 @@
-﻿using System;
-
-namespace P07_LowerOrUpper
+﻿namespace P07_LowerOrUpper
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             char letter = char.Parse(Console.ReadLine());
+
             if (letter >= 65 && letter <= 90)
             {
                 Console.WriteLine("upper-case");
             }
+
             else if (letter >= 97 && letter <= 122)
             {
                 Console.WriteLine("lower-case");

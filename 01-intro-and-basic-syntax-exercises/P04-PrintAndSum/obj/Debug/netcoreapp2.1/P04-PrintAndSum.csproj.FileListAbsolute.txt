@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P04-PrintAndSum
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P04-PrintAndSum\obj\Debug\netcoreapp2.1\P04-PrintAndSum.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P04-PrintAndSum\obj\Debug\netcoreapp2.1\P04-PrintAndSum.dll
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P04-PrintAndSum\obj\Debug\netcoreapp2.1\P04-PrintAndSum.pdb
+D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P04-PrintAndSum\obj\Debug\netcoreapp2.1\P04-PrintAndSum.csprojAssemblyReference.cache

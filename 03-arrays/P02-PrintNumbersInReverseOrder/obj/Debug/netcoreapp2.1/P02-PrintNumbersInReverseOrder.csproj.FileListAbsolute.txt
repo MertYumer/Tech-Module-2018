@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\03-arrays\P02-PrintNumbersInReverseOrder\obj\Debug\
 D:\Projects\Tech Module 2018\03-arrays\P02-PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\P02-PrintNumbersInReverseOrder.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\03-arrays\P02-PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\P02-PrintNumbersInReverseOrder.dll
 D:\Projects\Tech Module 2018\03-arrays\P02-PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\P02-PrintNumbersInReverseOrder.pdb
+D:\Projects\Tech Module 2018\03-arrays\P02-PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\P02-PrintNumbersInReverseOrder.csprojAssemblyReference.cache

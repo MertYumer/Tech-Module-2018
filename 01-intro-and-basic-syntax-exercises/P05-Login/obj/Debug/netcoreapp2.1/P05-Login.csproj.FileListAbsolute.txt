@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P05-Login\obj\D
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P05-Login\obj\Debug\netcoreapp2.1\P05-Login.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P05-Login\obj\Debug\netcoreapp2.1\P05-Login.dll
 D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P05-Login\obj\Debug\netcoreapp2.1\P05-Login.pdb
+D:\Projects\Tech Module 2018\01-intro-and-basic-syntax-exercises\P05-Login\obj\Debug\netcoreapp2.1\P05-Login.csprojAssemblyReference.cache
