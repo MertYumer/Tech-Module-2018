@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\regular-expressions-lab\P04-MatchNumbers\obj\Debug\
 D:\Projects\Tech Module 2018\regular-expressions-lab\P04-MatchNumbers\obj\Debug\netcoreapp2.1\P04-MatchNumbers.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\regular-expressions-lab\P04-MatchNumbers\obj\Debug\netcoreapp2.1\P04-MatchNumbers.dll
 D:\Projects\Tech Module 2018\regular-expressions-lab\P04-MatchNumbers\obj\Debug\netcoreapp2.1\P04-MatchNumbers.pdb
+D:\Projects\Tech Module 2018\regular-expressions-lab\P04-MatchNumbers\obj\Debug\netcoreapp2.1\P04-MatchNumbers.csprojAssemblyReference.cache

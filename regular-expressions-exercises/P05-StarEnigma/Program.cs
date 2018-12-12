@@ -1,10 +1,11 @@
-﻿using System;
-using System.Text.RegularExpressions;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace P05_StarEnigma
+﻿namespace P05_StarEnigma
 {
+    using System;
+    using System.Text.RegularExpressions;
+    using System.Linq;
+    using System.Collections.Generic;
+
+
     public class Program
     {
         public static void Main()
@@ -65,6 +66,7 @@ namespace P05_StarEnigma
                 Console.WriteLine($"{planet.Key}: {planet.Value.Count}");
 
                 var orderedPlanets = planet.Value.OrderBy(x => x);
+
                 foreach (var target in orderedPlanets)
                 {
                     Console.WriteLine($"-> {target}");

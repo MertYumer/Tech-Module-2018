@@ -11,9 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-Race", "P03-Race\P03-Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-SoftUniBarIncome", "P04-SoftUniBarIncome\P04-SoftUniBarIncome.csproj", "{29C761AC-2795-4465-A9B7-A928B67130E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-StarEnigma", "P05-StarEnigma\P05-StarEnigma.csproj", "{4FD90EDF-D7EF-45FB-8E53-9B4146282338}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07-HTMLParser", "P07-HTMLParser\P07-HTMLParser.csproj", "{3CE26A24-ADA3-4403-B02A-F666181643C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-StarEnigma", "P05-StarEnigma\P05-StarEnigma.csproj", "{4FD90EDF-D7EF-45FB-8E53-9B4146282338}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{4FD90EDF-D7EF-45FB-8E53-9B4146282338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD90EDF-D7EF-45FB-8E53-9B4146282338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD90EDF-D7EF-45FB-8E53-9B4146282338}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3CE26A24-ADA3-4403-B02A-F666181643C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CE26A24-ADA3-4403-B02A-F666181643C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CE26A24-ADA3-4403-B02A-F666181643C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CE26A24-ADA3-4403-B02A-F666181643C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

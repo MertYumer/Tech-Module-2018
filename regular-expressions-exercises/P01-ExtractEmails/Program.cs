@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace P01_ExtractEmails
+﻿namespace P01_ExtractEmails
 {
+    using System;
+    using System.Text.RegularExpressions;
+
     public class Program
     {
         public static void Main()

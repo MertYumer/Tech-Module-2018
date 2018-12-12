@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace P01_MatchFullName
+﻿namespace P01_MatchFullName
 {
+    using System;
+    using System.Text.RegularExpressions;
+
     public class Program
     {
         public static void Main()

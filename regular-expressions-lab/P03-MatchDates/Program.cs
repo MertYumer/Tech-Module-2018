@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace P03_MatchDates
+﻿namespace P03_MatchDates
 {
+    using System;
+    using System.Text.RegularExpressions;
+
     public class Program
     {
         public static void Main()

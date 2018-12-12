@@ -8,3 +8,4 @@ D:\Projects\Tech Module 2018\regular-expressions-exercises\P05-StarEnigma\obj\De
 D:\Projects\Tech Module 2018\regular-expressions-exercises\P05-StarEnigma\obj\Debug\netcoreapp2.1\P05-StarEnigma.AssemblyInfo.cs
 D:\Projects\Tech Module 2018\regular-expressions-exercises\P05-StarEnigma\obj\Debug\netcoreapp2.1\P05-StarEnigma.dll
 D:\Projects\Tech Module 2018\regular-expressions-exercises\P05-StarEnigma\obj\Debug\netcoreapp2.1\P05-StarEnigma.pdb
+D:\Projects\Tech Module 2018\regular-expressions-exercises\P05-StarEnigma\obj\Debug\netcoreapp2.1\P05-StarEnigma.csprojAssemblyReference.cache

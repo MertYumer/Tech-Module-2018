@@ -1,9 +1,9 @@
-﻿using System;
-using System.Text.RegularExpressions;
-using System.Collections.Generic;
-
-namespace P02_Furniture
+﻿namespace P02_Furniture
 {
+    using System;
+    using System.Text.RegularExpressions;
+    using System.Collections.Generic;
+
     public class Program
     {
         public static void Main()
@@ -29,6 +29,7 @@ namespace P02_Furniture
                 }
 
                 Match matchedProduct = Regex.Match(input, regex);
+
                 if (matchedProduct.Groups[1].Value == string.Empty)
                 {
                     continue;

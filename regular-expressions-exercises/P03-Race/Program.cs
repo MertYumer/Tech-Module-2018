@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using System.Linq;
-
-namespace P03_Race
+﻿namespace P03_Race
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Program
     {
         public static void Main()
@@ -26,11 +25,13 @@ namespace P03_Race
                     var finalThree = contest.OrderByDescending(x => x.Value).Take(3);
                     string[] places = new string[] { "1st", "2nd", "3rd" };
                     int i = 0;
+
                     foreach (var person in finalThree)
                     {
                         Console.WriteLine($"{places[i]} place: {person.Key}");
                         i++;
                     }
+
                     break;
                 }
 
