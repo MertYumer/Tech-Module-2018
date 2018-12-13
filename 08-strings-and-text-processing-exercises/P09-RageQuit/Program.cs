@@ -1,66 +1,49 @@
-﻿namespace P04_Files
+﻿namespace P09_RageQuit
 {
     using System;
-    using System.Linq;
+    using System.Text;
+    using System.Text.RegularExpressions;
     using System.Collections.Generic;
 
     public class Program
     {
         public static void Main()
         {
-            var files = new List<File>();
-            int n = int.Parse(Console.ReadLine());
+            StringBuilder result = new StringBuilder();
+            var uniqueSymbols = new List<char>();
 
-            for (int i = 0; i < n; i++)
+            string input = Console.ReadLine();
+
+            string lettersPattern = @"[^\d]+";
+            string countPattern = @"[\d]+";
+
+            MatchCollection matchedStrings = Regex.Matches(input, lettersPattern);
+            MatchCollection matchedCounts = Regex.Matches(input, countPattern);
+
+            for (int i = 0; i < matchedStrings.Count; i++)
             {
-                var input = Console.ReadLine().Split('\\');
-                var fileData = input.Last().Split(';');
-                File file = new File
+                string text = matchedStrings[i].Value.ToUpper();
+                int count = int.Parse(matchedCounts[i].Value);
+
+                for (int j = 0; j < count; j++)
                 {
-                    Location = input[0],
-                    FileName = fileData[0],
-                    FileSize = long.Parse(fileData.Last())
-                };
+                    result.Append(text);
+                }
 
-                files.Add(file);
-            }
-
-            var command = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            string wantedExtension = command[0];
-            string wantedLocation = command[2];
-
-            var wantedFiles = new Dictionary<string, long>();
-
-            foreach (var file in files)
-            {
-                if (file.Location == wantedLocation && file.FileName.EndsWith(wantedExtension))
+                if (count > 0)
                 {
-                    wantedFiles[file.FileName] = file.FileSize;
+                    foreach (var character in text)
+                    {
+                        if (!uniqueSymbols.Contains(character))
+                        {
+                            uniqueSymbols.Add(character);
+                        }
+                    }
                 }
             }
 
-            if (wantedFiles.Count == 0)
-            {
-                Console.WriteLine("No");
-            }
-
-            var result = wantedFiles
-                .OrderByDescending(f => f.Value)
-                .ThenBy(f => f.Key);
-
-            foreach (var file in result)
-            {
-                Console.WriteLine($"{file.Key} - {file.Value} KB");
-            }
-        }
-
-        public class File
-        {
-            public string Location { get; set; }
-
-            public string FileName { get; set; }
-
-            public long FileSize { get; set; }
+            Console.WriteLine($"Unique symbols used: {uniqueSymbols.Count}");
+            Console.WriteLine(result);
         }
     }
 }
