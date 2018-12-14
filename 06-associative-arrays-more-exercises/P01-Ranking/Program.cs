@@ -57,29 +57,22 @@
                 submission = Console.ReadLine().Split("=>");
             }
 
-            var result = students.OrderByDescending(x => x.Value.Values.Sum()).Take(1);
-            string name = string.Empty;
-            int sum = 0;
+            var bestCandidate = students.OrderByDescending(x => x.Value.Values.Sum()).First();
 
-            foreach (var student in result)
-            {
-                name = student.Key;
-
-                foreach (var currentPoints in student.Value)
-                {
-                    sum += currentPoints.Value;
-                }
-            }
-
-            Console.WriteLine($"Best candidate is {name} with total {sum} points.");
+            Console.WriteLine($"Best candidate is {bestCandidate.Key} with total" +
+                $" {bestCandidate.Value.Values.Sum()} points.");
 
             Console.WriteLine("Ranking:");
 
-            foreach (var student in students.OrderBy(x => x.Key))
+            var result = students.OrderBy(x => x.Key);
+
+            foreach (var student in result)
             {
                 Console.WriteLine(student.Key);
 
-                foreach (var currentContest in student.Value.OrderByDescending(x => x.Value))
+                var pairs = student.Value.OrderByDescending(x => x.Value);
+
+                foreach (var currentContest in pairs)
                 {
                     Console.WriteLine($"#  {currentContest.Key} -> {currentContest.Value}");
                 }

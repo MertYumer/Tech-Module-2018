@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01-ForceBook", "P01-ForceBook\P01-ForceBook.csproj", "{E52413B3-B682-457A-8E10-8ED6C91E3454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-ForceBook", "P01-ForceBook\P01-ForceBook.csproj", "{E52413B3-B682-457A-8E10-8ED6C91E3454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02-SoftUniExamResults", "P02-SoftUniExamResults\P02-SoftUniExamResults.csproj", "{FDE7D728-A979-4460-AA6B-D9E40040F61B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-SoftUniExamResults", "P02-SoftUniExamResults\P02-SoftUniExamResults.csproj", "{FDE7D728-A979-4460-AA6B-D9E40040F61B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03-LettersChangeNumbers", "P03-LettersChangeNumbers\P03-LettersChangeNumbers.csproj", "{AFF1C07F-AEE8-4E28-A33F-1232EDE599FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-LettersChangeNumbers", "P03-LettersChangeNumbers\P03-LettersChangeNumbers.csproj", "{AFF1C07F-AEE8-4E28-A33F-1232EDE599FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-RageQuit", "P04-RageQuit\P04-RageQuit.csproj", "{8BDB48FE-C609-45F4-8F3D-E36D2E867EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-RageQuit", "P04-RageQuit\P04-RageQuit.csproj", "{8BDB48FE-C609-45F4-8F3D-E36D2E867EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-Ranking", "P05-Ranking\P05-Ranking.csproj", "{373855ED-BDF8-43EF-957A-7386C607AAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06-Judge", "P06-Judge\P06-Judge.csproj", "{21316A86-A882-430F-8FAD-3C288E847604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{8BDB48FE-C609-45F4-8F3D-E36D2E867EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BDB48FE-C609-45F4-8F3D-E36D2E867EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BDB48FE-C609-45F4-8F3D-E36D2E867EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373855ED-BDF8-43EF-957A-7386C607AAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373855ED-BDF8-43EF-957A-7386C607AAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373855ED-BDF8-43EF-957A-7386C607AAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373855ED-BDF8-43EF-957A-7386C607AAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21316A86-A882-430F-8FAD-3C288E847604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21316A86-A882-430F-8FAD-3C288E847604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21316A86-A882-430F-8FAD-3C288E847604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21316A86-A882-430F-8FAD-3C288E847604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
