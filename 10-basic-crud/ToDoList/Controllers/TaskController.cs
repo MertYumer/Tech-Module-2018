@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Data;
 using ToDoList.Models;
+using ToDoList.Data;
 
 namespace ToDoList.Controllers
 {
@@ -14,8 +14,7 @@ namespace ToDoList.Controllers
         {
             using (var db = new ToDoDbContext())
             {
-                //Display all existing tasks.
-                List<Task> allTasks = db.Tasks.ToList();
+                var allTasks = db.Tasks.ToList();
                 return View(allTasks);
             }
         }
@@ -23,7 +22,6 @@ namespace ToDoList.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            //Display the Create page.
             return View();
         }
 
@@ -32,17 +30,15 @@ namespace ToDoList.Controllers
         {
             if (string.IsNullOrEmpty(task.Title) || string.IsNullOrEmpty(task.Comments))
             {
-                //If there is not added title or comments, return to the Index page.
                 return RedirectToAction("Index");
             }
 
             using (var db = new ToDoDbContext())
             {
-                //Add the task to the database and save the changes.
                 db.Tasks.Add(task);
                 db.SaveChanges();
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -50,80 +46,64 @@ namespace ToDoList.Controllers
         {
             using (var db = new ToDoDbContext())
             {
-                //Check if the current task exists in the database.
-                Task currentTask = db.Tasks.FirstOrDefault(x => x.Id == id);
-                //If the task doesn't exist, return to the Index page.
-                if (currentTask == null)
+                var task = db.Tasks.FirstOrDefault(t => t.Id == id);
+
+                if (task == null)
                 {
                     return RedirectToAction("Index");
                 }
 
-                //Else - display the Edit page.
-                return View(currentTask);
+                return View(task);
             }
         }
 
         [HttpPost]
         public IActionResult Edit(Task task)
         {
-            using (var db = new ToDoDbContext())
+            if (ModelState.IsValid)
             {
-                //Check for a task with exact same id as the parameter.
-                Task currentTask = db.Tasks.FirstOrDefault(x => x.Id == task.Id);
-                //If the task doesn't exist, return to the Index page.
-                if (currentTask == null)
+                using (var db = new ToDoDbContext())
                 {
-                    return RedirectToAction("Index");
+                    var currentTask = db.Tasks.FirstOrDefault(t => t.Id == task.Id);
+                    currentTask.Title = task.Title;
+                    currentTask.Comments = task.Comments;
+                    db.SaveChanges();
                 }
-
-                //Replace the old properties of the task with the new ones.
-                currentTask.Title = task.Title;
-                currentTask.Comments = task.Comments;
-                //Save the changes.
-                db.SaveChanges();
-
-                //Display the Index page.
-                return RedirectToAction("Index");
             }
+
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
-        public IActionResult Details(int id) //Check what is the URL path when you press the Delete button.
+        public IActionResult Details(int id)
         {
             using (var db = new ToDoDbContext())
             {
-                //Check if the current task exists in the database.
-                Task currentTask = db.Tasks.FirstOrDefault(x => x.Id == id);
-                //If the task doesn't exist, return to the Index page.
-                if (currentTask == null)
+                var task = db.Tasks.FirstOrDefault(t => t.Id == id);
+
+                if (task == null)
                 {
                     return RedirectToAction("Index");
                 }
 
-                //Else - display the Delete page.
-                return View(currentTask);
+                return View(task);
             }
         }
 
         [HttpPost]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(Task task)
         {
             using (var db = new ToDoDbContext())
             {
-                //Check if the current task exists in the database.
-                Task currentTask = db.Tasks.FirstOrDefault(x => x.Id == id);
-                //If the task doesn't exist, return to the Index page.
-                if (currentTask == null)
-                {
-                    return RedirectToAction("Index");
-                }
+                var currentTask = db.Tasks.FirstOrDefault(t => t.Id == task.Id);
 
-                //Else - remove the task from the list and save the changes.
-                db.Tasks.Remove(currentTask);
-                db.SaveChanges();
+                if (currentTask != null)
+                {
+                    db.Tasks.Remove(currentTask);
+                    db.SaveChanges();
+                }
             }
 
-            //Display the Index page.
             return RedirectToAction("Index");
         }
     }

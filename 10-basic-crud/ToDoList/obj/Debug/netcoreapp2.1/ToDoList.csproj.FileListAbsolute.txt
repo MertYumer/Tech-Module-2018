@@ -5,6 +5,7 @@ D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\bin\Debug\netcoreapp2.1\ToDo
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\bin\Debug\netcoreapp2.1\ToDoList.pdb
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\bin\Debug\netcoreapp2.1\ToDoList.Views.dll
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\bin\Debug\netcoreapp2.1\ToDoList.Views.pdb
+D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.csprojAssemblyReference.cache
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.csproj.CoreCompileInputs.cache
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.RazorAssemblyInfo.cache
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.RazorAssemblyInfo.cs
@@ -27,4 +28,3 @@ D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDo
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.dll
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.pdb
 D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.csproj.CopyComplete
-D:\Projects\Tech Module 2018\10-basic-crud\ToDoList\obj\Debug\netcoreapp2.1\ToDoList.csprojAssemblyReference.cache
