@@ -37,6 +37,7 @@
                     {
                         Console.WriteLine($"({person.HatColor}) {person.Name} <-> {person.Physics}");
                     }
+
                     break;
                 }
 
@@ -47,6 +48,7 @@
                 var dwarf = new Dwarf(dwarfName, dwarfHatColor, dwarfPhysics);
 
                 int index = dwarves.FindIndex(x => x.Name == dwarfName);
+
                 if (index >= 0)
                 {
                     if (dwarves[index].HatColor != dwarfHatColor)
@@ -56,8 +58,7 @@
 
                     else if (dwarves[index].Physics < dwarfPhysics)
                     {
-                        dwarves.RemoveAt(index);
-                        dwarves.Add(dwarf);
+                        dwarves[index].Physics = dwarfPhysics;
                         continue;
                     }
                 }
